@@ -2,6 +2,10 @@ main {
     max-width: 840px;
 }
 
+p {
+    padding: 0;
+}
+
 aside {
     width: 20rem;
     margin: 1rem;
@@ -20,10 +24,6 @@ main img{
 aside img {
     width: 200px;
     height: auto;
-}
-
-p {
-    padding: 0;
 }
 
 footer {
