@@ -2,6 +2,12 @@ main {
     max-width: 840px;
 }
 
+nav {
+    margin: 0;
+    padding: 0;
+    background-color: steelblue;
+}
+
 nav a {
     color: turquoise;
     padding: 10px;
