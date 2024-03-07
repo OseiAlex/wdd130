@@ -2,9 +2,22 @@ main {
     max-width: 840px;
 }
 
+nav a {
+    color: turquoise;
+    padding: 10px;
+    display: block;
+}
+
+h1 {
+    color: steelblue;
+}
+
 main img{
     width: 150px;
     height: auto;
+    padding: 2px;
+    border: 1px solid steelblue;
+    box-shadow: 0 0 30px gray;
 }
 
 p {
