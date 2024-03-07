@@ -2,6 +2,11 @@ main {
     max-width: 840px;
 }
 
+main img{
+    width: 150px;
+    height: auto;
+}
+
 p {
     padding: 0;
 }
@@ -14,11 +19,6 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
-}
-
-main img{
-    width: 150px;
-    height: auto;
 }
 
 aside img {
