@@ -1,9 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Montserrat&display=swap');
-body {
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
-}
 
 :root {
     --primary-color: #85c7f2;
@@ -12,12 +7,18 @@ body {
     --accent2-color: #3aafb9;
 
     --heading-font: 'Montserrat', serif;
-    --paragraph-font: 'Roboto', serif;
+    --paragraph-font: 'Roboto', serif; /* Define the variable with a default font value */
 
     --nav-background-color: #5dd9c1;
     --nav-link-color: #093a3e;
     --nav-hover-link-color: #beb7df;
     --nav-hover-background-color: #b084cc;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
