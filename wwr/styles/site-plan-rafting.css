@@ -58,3 +58,7 @@ nav a:hover {
     width: 100px;
     height: auto;
 }
+
+.heroimage{
+    float: right;
+}
