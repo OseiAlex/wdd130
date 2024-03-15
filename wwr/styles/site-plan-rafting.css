@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Montserrat&display=swap');
 
 :root {
-    --primary-color: #85c7f2;
+    --primary-color: #2a2c2e;
     --secondary-color: #85c7a0;
     --accent1-color: #30ffa0;
     --accent2-color: #3aafb9;
@@ -51,4 +51,11 @@ nav a:hover {
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+}
+
+.hero{
+    display: block;
+    width: 100px;
+    height: auto;
+    text-wrap: break word;
 }
