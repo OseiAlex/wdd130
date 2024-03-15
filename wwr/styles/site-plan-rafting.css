@@ -57,8 +57,15 @@ nav a:hover {
     display: block;
     width: 100px;
     height: auto;
+    position: relative;
+    float: right;
 }
 
-.heroimage{
-    float: right;
+hero h2{
+    position: absolute;
+}
+
+.sociallinks{
+    padding: 0;
+    margin: 0;
 }
