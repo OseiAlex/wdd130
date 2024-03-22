@@ -10,19 +10,37 @@ body{
 }
 
 main {
+    grid-column: 2/3;
+    margin: 1rem;
     max-width: 640px;
+}
+
+header, .grid, footer{
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
 }
 
 nav {
     margin: 0;
-    padding: 10px;
+    display: flex;
     background-color: steelblue;
+    justify-content: space-evenly;
+    padding: 1rem;
 }
 
 nav a {
     color: turquoise;
-    padding: 10px;
+    padding: 0.5rem;
     display: block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
 }
 
 h1 {
@@ -46,9 +64,12 @@ p {
 
 aside {
     width: 20rem;
-    margin: 1rem;
+    /* margin: 1rem; */
     text-align: center;
     position: relative;
+    width: 20rem;
+    /* grid-column: 1/2; */
+    grid-row: 1/2;
 }
 
 aside h2{
@@ -73,6 +94,8 @@ footer {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
+    grid-column: 1/3;
+    grid-row: 1/3;
     background-color: #ddd;
     color: #000;
 }
