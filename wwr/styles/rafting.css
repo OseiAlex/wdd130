@@ -29,6 +29,9 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
   background-color: var(--primary-color);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -36,6 +39,7 @@ header {
 }
 
 .logo img {
+  display: block;
   max-height: 50px;
 }
 
@@ -94,7 +98,8 @@ article img {
 section {
   margin-top: 50px;
 }
-  
+
+
 .adventure-gallery {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
