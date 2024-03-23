@@ -99,7 +99,6 @@ section {
   margin-top: 50px;
 }
 
-
 .adventure-gallery {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -119,7 +118,7 @@ section {
   
 .image-container {
   display: flex;
-  justify-content: center; /* Center image horizontally */
+  justify-content: center;
 }
   
 section h2 {
@@ -152,7 +151,7 @@ footer p {
 }
 
 footer {
-  position: relative; /* Position relative for absolute positioning */
+  position: relative;
   background-color: var(--primary-color);
   color: #fff;
   padding: 20px;
@@ -164,5 +163,3 @@ footer .sociallinks {
   bottom: 10px;
   right: 10px;
 }
-  
-  
