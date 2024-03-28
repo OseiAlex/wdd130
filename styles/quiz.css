@@ -54,9 +54,6 @@ textarea.question-input {
     padding: 10px;
 }
 
-#q3:hover {
-    background-color: rgb(138, 217, 244);
-}
 
 .question-input[type="text"],
 .question-input[type="number"],
