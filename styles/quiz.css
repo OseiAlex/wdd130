@@ -46,7 +46,16 @@ textarea.question-input {
 }
 
 #q3 {
-    width: calc(100% - 24px); 
+    width: calc(104.8% - 22px); 
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#q3:hover {
+    background-color: rgb(138, 217, 244);
 }
 
 .question-input[type="text"],
