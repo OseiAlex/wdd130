@@ -1,0 +1,71 @@
+body, h1, form, label, input, textarea, select, button {
+    margin: 0;
+    padding: 0;
+}
+
+body, input, textarea, select, button {
+    width: 100%;
+}
+  
+body {
+    padding: 20px;
+    text-align: center;
+}
+  
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #e0dddd;
+    padding: 20px;
+    border-radius: 8px;
+}
+  
+
+.question-container {
+    text-align: left;
+    margin-bottom: 5px;
+}
+  
+.question-label {
+    cursor: pointer;
+    color: black;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 5px;
+}
+  
+.question-input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+  
+textarea.question-input {
+    height: 100%;
+}
+
+#q3 {
+    width: calc(100% - 24px); 
+}
+
+.question-input[type="text"],
+.question-input[type="number"],
+.question-input[type="textarea"],
+.question-input[type="select"]{
+    margin-bottom: 5px;
+}
+  
+.submit-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+  
+.submit-button:hover {
+    background-color: darkblue;
+}
+  

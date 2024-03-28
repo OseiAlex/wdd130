@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <meta name="description" content="Quiz">
+  <meta name="author" content="Alex King Osei Junior">
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+  <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+  <h1 class="quiz-heading">HTML and CSS Quiz</h1>
+  <form id="quizForm">
+    <div class="question-container">
+      <label for="q1" class="question-label">1. Fill in the blank: What does HTML stand for?</label><br>
+      <input type="text" id="q1" name="q1" class="question-input" required><br><br>
+    </div>
+
+    <div class="question-container">
+      <label for="q2" class="question-label">2. Explain the purpose of CSS:</label><br>
+      <textarea id="q2" name="q2" class="question-input" rows="4" cols="50" required></textarea><br><br>
+    </div>
+
+    <div class="question-container">
+      <label for="q3" class="question-label">3. What is the correct way to link an external CSS file to an HTML document?</label><br>
+      <select id="q3" name="q3" class="question-input" required>
+        <option value="" selected disabled>Choose One ...</option>
+        <option value="1">Using the &lt;link&gt; tag</option>
+        <option value="2">Using the &lt;style&gt; tag</option>
+        <option value="3">Using the &lt;script&gt; tag</option>
+      </select><br><br>
+    </div>
+
+    <div class="question-container">
+      <label for="q4" class="question-label">4. How many levels of headings are there in HTML?</label><br>
+      <input type="number" id="q4" name="q4" class="question-input" min="1" required><br><br>
+    </div>
+
+    <button type="submit" class="submit-button">Submit Quiz</button>
+  </form>
+</body>
+</html>
