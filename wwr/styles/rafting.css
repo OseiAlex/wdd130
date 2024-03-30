@@ -47,7 +47,7 @@ nav a:visited,
 nav a:hover {
   text-decoration: none;
   margin-left: 20px;
-  color: var(--text-color);
+  color: var(--nav-link-color);
   background-color: var(--nav-background-color);
 }
 
@@ -132,7 +132,7 @@ section img {
 
 footer {
   background-color: var(--primary-color);
-  color: #000;
+  color: #fff;
   padding: 20px;
   text-align: center;
 }
