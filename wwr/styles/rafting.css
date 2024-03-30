@@ -52,6 +52,7 @@ nav a:hover {
 }
 
 nav a {
+  color: #fff;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -110,7 +111,6 @@ section {
   height: auto;
 }
 
-
 .text-container {
   display: flex;
   flex-direction: column;
@@ -135,6 +135,152 @@ footer {
   color: #fff;
   padding: 20px;
   text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#contact {
+  padding: 20px 0;
+}
+
+.company-info, .employee-profiles, .comment-form {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.map-container {
+  margin-top: 20px;
+  text-align: center;
+  height: 400px;
+}
+
+.map-container iframe {
+  display: inline-block;
+  height: 100%;
+}
+
+.employee-profiles {
+  text-align: center;
+}
+
+.employee-profiles .employee {
+  width: 30%;
+  margin-bottom: 20px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 2%;
+}
+
+.employee img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.comment-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form textarea {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.comment-form textarea {
+  resize: vertical;
+}
+
+.comment-form input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.comment-form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.comment-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form textarea,
+.comment-form input[type="radio"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.comment-form textarea {
+  resize: vertical;
+}
+
+.comment-form input[type="checkbox"],
+.comment-form input[type="radio"] {
+    vertical-align: middle; /* Align checkboxes and radio buttons vertically */
+}
+
+.comment-form .purpose label,
+.comment-form input[type="checkbox"]+label,
+.comment-form input[type="radio"]+label {
+    display: inline-block;
+    vertical-align: middle; /* Align labels vertically with checkboxes and radio buttons */
+}
+
+.comment-form input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.comment-form #general-inquiry+label {
+  margin-top: 0px; /* Adjust margin to align with other labels */
+}
+
+.comment-form .purpose {
+  margin-bottom: 20px;
+}
+
+.comment-form .radio-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.comment-form input[type="submit"] {
+  width: calc(101.2% - 22px);
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin-top: 10px;
+}
+
+.comment-form input[type="submit"]:hover {
+  background-color: #0056b3;
 }
 
 footer p {
