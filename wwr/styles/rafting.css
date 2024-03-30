@@ -267,7 +267,7 @@ footer {
 .comment-form input[type="submit"] {
   width: calc(101.2% - 22px);
   padding: 10px;
-  background-color: var(--secondary-color); /* Adjusted secondary color for better contrast */
+  background-color: #007bff; /* Adjusted secondary color for better contrast */
   color: #fff;
   border: none;
   border-radius: 5px;
