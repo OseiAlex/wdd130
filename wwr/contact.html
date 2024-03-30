@@ -62,23 +62,28 @@
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required><br><br>
                     
-                    <div class="purpose">
-                        <label>Purpose:</label><br>
+                    <fieldset class="purpose">
+                        <legend>Purpose</legend>
                         <div class="radio-container">
-                            <input type="radio" id="general-inquiry" name="purpose" value="General Inquiry">
-                            <label for="general-inquiry">General Inquiry</label><br>
-                            <input type="radio" id="reservation-question" name="purpose" value="Reservation Question">
-                            <label for="reservation-question">Reservation Question</label><br>
-                            <input type="radio" id="website-suggestion" name="purpose" value="Website Suggestion">
-                            <label for="website-suggestion">Website Suggestion</label><br><br>
+                          <label for="general-inquiry">General Inquiry</label><br>
+                          <input type="radio" id="general-inquiry" name="purpose" value="General Inquiry">
+                          
+                          <input type="radio" id="reservation-question" name="purpose" value="Reservation Question">
+                          <label for="reservation-question">Reservation Question</label><br>
+                          
+                          <input type="radio" id="website-suggestion" name="purpose" value="Website Suggestion">
+                          <label for="website-suggestion">Website Suggestion</label><br>
                         </div>
-                    </div>
-                    
+                      </fieldset>
+                      
                     <label for="message">Message:</label><br>
                     <textarea id="message" name="message" rows="4" required></textarea><br><br>
                     
-                    <input type="checkbox" id="subscribe" name="subscribe" value="Subscribe">
-                    <label for="subscribe">Please subscribe me to the monthly newsletter</label><br><br>
+                    <fieldset>
+                        <legend>Newsletter Subscription</legend>
+                        <input type="checkbox" id="newsletter" name="newsletter" value="Subscribe">
+                        <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                      </fieldset>
                     
                     <input type="submit" value="Submit">
                 </form>
