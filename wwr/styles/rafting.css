@@ -130,15 +130,7 @@ section img {
   margin: 0 10px 20px 0;
 }
 
-footer {
-  background-color: var(--primary-color);
-  color: #fff;
-  padding: 20px;
-  font-size: 26px;
-  text-align: center;
-}
-
-.container {
+#container {
   width: 80%;
   margin: auto;
   overflow: hidden;
@@ -304,6 +296,14 @@ footer {
   background-color: var(--primary-color);
   color: #fff;
   padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 20px;
+  font-size: 26px;
   text-align: center;
 }
 
