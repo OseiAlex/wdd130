@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
-  --primary-color: #E4F6F6;
+  --primary-color: #3498db;
   --secondary-color: #2ecc71;
-  --text-color: #4D29DB;
+  --text-color: #333;
   --heading-font: 'Montserrat', sans-serif;
   --paragraph-font: 'Roboto', sans-serif;
 
