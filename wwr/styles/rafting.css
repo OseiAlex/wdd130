@@ -160,6 +160,7 @@ footer {
 .map-container iframe {
   display: inline-block;
   height: 100%;
+  width:400 
 }
 
 .employee-profiles {
