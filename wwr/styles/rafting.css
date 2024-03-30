@@ -1,4 +1,314 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+:root {
+  --primary-color: #007acc; /* Adjusted primary color for better contrast */
+  --secondary-color: #4caf50; /* Adjusted secondary color for better contrast */
+  --text-color: #333; /* Adjusted text color for better contrast */
+  --heading-font: 'Montserrat', sans-serif;
+  --paragraph-font: 'Roboto', sans-serif;
+
+  --nav-background-color: #009688; /* Adjusted navigation background color for better contrast */
+  --nav-link-color: #fff;
+  --nav-hover-link-color: #8bc34a; /* Adjusted navigation hover link color for better contrast */
+  --nav-hover-background-color: #673ab7; /* Adjusted navigation hover background color for better contrast */
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* Adjusted background color for better contrast */
+  color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+  text-align: center;
+}
+
+header {
+  background-color: var(--primary-color);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  display: block;
+  max-height: 50px;
+}
+
+nav a:visited,
+nav a:hover {
+  text-decoration: none;
+  margin-left: 20px;
+  color: var(--nav-link-color);
+  background-color: var(--nav-background-color);
+}
+
+nav a {
+  color: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  font-size: 3em;
+}
+
+article {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  max-width: 300px;
+  color: #fff;
+}
+
+article img {
+  float: right;
+  width: 80px;
+  margin-left: 10px;
+}
+
+section {
+  margin-top: 50px;
+}
+
+.adventure-gallery {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+  
+.adventure-gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+  
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+  
+section h2 {
+  color: var(--primary-color);
+}
+
+section img {
+  width: calc(20% - 20px);
+  margin: 0 10px 20px 0;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#contact {
+  padding: 20px 0;
+}
+
+.company-info, .employee-profiles, .comment-form {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.map-container {
+  margin-top: 20px;
+  text-align: center;
+  height: 400px;
+}
+
+.map-container iframe {
+  display: inline-block;
+  height: 100%;
+}
+
+.employee-profiles {
+  text-align: center;
+}
+
+.employee-profiles .employee {
+  width: 30%;
+  margin-bottom: 20px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 2%;
+}
+
+.employee img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.comment-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form textarea {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.comment-form textarea {
+  resize: vertical;
+}
+
+.comment-form input[type="submit"] {
+  padding: 10px 20px;
+  background-color: var(--secondary-color); /* Adjusted secondary color for better contrast */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.comment-form input[type="submit"]:hover {
+  background-color: #388e3c; /* Adjusted hover color for better contrast */
+}
+
+.comment-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form textarea,
+.comment-form input[type="radio"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.comment-form textarea {
+  resize: vertical;
+}
+
+.comment-form input[type="checkbox"],
+.comment-form input[type="radio"] {
+    vertical-align: middle; /* Align checkboxes and radio buttons vertically */
+}
+
+.comment-form .purpose label,
+.comment-form input[type="checkbox"]+label,
+.comment-form input[type="radio"]+label {
+    display: inline-block;
+    vertical-align: middle; /* Align labels vertically with checkboxes and radio buttons */
+}
+
+.comment-form input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.comment-form #general-inquiry+label {
+  margin-top: 0px; /* Adjust margin to align with other labels */
+}
+
+.comment-form .purpose {
+  margin-bottom: 20px;
+}
+
+.comment-form .radio-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.comment-form input[type="submit"] {
+  width: calc(101.2% - 22px);
+  padding: 10px;
+  background-color: var(--secondary-color); /* Adjusted secondary color for better contrast */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin-top: 10px;
+}
+
+.comment-form input[type="submit"]:hover {
+  background-color: #388e3c; /* Adjusted hover color for better contrast */
+}
+
+footer p {
+  margin: 0;
+}
+
+.sociallinks {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.sociallinks img {
+  width: 30px;
+}
+
+footer {
+  position: relative;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer .sociallinks {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
   --primary-color: #3498db;
@@ -238,14 +548,14 @@ footer {
 
 .comment-form input[type="checkbox"],
 .comment-form input[type="radio"] {
-    vertical-align: middle; /* Align checkboxes and radio buttons vertically */
+    vertical-align: middle; 
 }
 
 .comment-form .purpose label,
 .comment-form input[type="checkbox"]+label,
 .comment-form input[type="radio"]+label {
     display: inline-block;
-    vertical-align: middle; /* Align labels vertically with checkboxes and radio buttons */
+    vertical-align: middle; 
 }
 
 .comment-form input[type="checkbox"] {
@@ -253,7 +563,7 @@ footer {
 }
 
 .comment-form #general-inquiry+label {
-  margin-top: 0px; /* Adjust margin to align with other labels */
+  margin-top: 0px;
 }
 
 .comment-form .purpose {
@@ -308,4 +618,4 @@ footer .sociallinks {
   position: absolute;
   bottom: 10px;
   right: 10px;
-}
+} */
