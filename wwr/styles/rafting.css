@@ -163,7 +163,7 @@ footer {
 .map-container iframe {
   display: inline-block;
   height: 100%;
-  width:400 
+  width:400;
 }
 
 .employee-profiles {
@@ -268,11 +268,12 @@ footer {
   padding: 10px;
 }
 
-.comment-form input[type="submit"] {
+.comment-form button[type="submit"] {
   width: calc(101.2% - 22px);
   padding: 10px;
   background-color: #004794;
   color: #fff;
+  font-size: 26px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -281,7 +282,7 @@ footer {
   margin-top: 10px;
 }
 
-.comment-form input[type="submit"]:hover {
+.comment-form button[type="submit"]:hover {
   background-color: #1A421A;
 }
 
