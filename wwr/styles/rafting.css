@@ -4,14 +4,15 @@
     --text-color: #333;
     --heading-font: 'Montserrat', sans-serif;
     --paragraph-font: 'Roboto', sans-serif;
-  
+
     --nav-background-color: #009688;
     --nav-link-color: #fff;
     --nav-hover-link-color: #8bc34a;
     --nav-hover-background-color: #673ab7;
-    --footer-color: #333;
+    /* --footer-color: #333; */
+    --footer-text-color: #fff;
 }
-  
+
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +20,7 @@
 }
 
 p {
-    color: #333;
+    color: var(--nav-link-color);
 }
 
 h1 {
@@ -149,7 +150,7 @@ nav a:hover {
 
 .btn {
     display: inline-block;
-    background-color: #ff6f00;
+    background-color: #004794;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -235,7 +236,7 @@ nav a:hover {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #ff6f00;
+    background-color: #004794;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -345,6 +346,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px;
     background-color: #f9f9f9;
     border-radius: 5px;
+    color: #000;
 }
 
 .history-item.history-image img {
@@ -375,8 +377,8 @@ section {
 .employee-profiles {
     text-align: center;
     margin-bottom: 50px;
-  }
-  
+}
+
 .employee-profiles .employee {
     width: 30%;
     margin-bottom: 20px;
@@ -384,7 +386,7 @@ section {
     vertical-align: top;
     margin-right: 2%;
 }
-  
+
 .employee img {
     width: 100%;
     max-width: 100%;
@@ -406,11 +408,11 @@ section {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-  
+
 .comment-form textarea {
     resize: vertical;
 }
-  
+
 .comment-form input[type="submit"] {
     padding: 10px 20px;
     background-color: var(--secondary-color);
@@ -420,49 +422,25 @@ section {
     cursor: pointer;
     font-size: 16px;
 }
-  
+
 .comment-form input[type="submit"]:hover {
-    background-color: #141414;
+    background-color: #1A421A;
 }
-  
-.comment-form label {
-    display: block;
-    margin-bottom: 5px;
-}
-  
-.comment-form input[type="text"],
-.comment-form input[type="email"],
-.comment-form textarea,
-.comment-form input[type="radio"] {
-    width: calc(100% - 22px);
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-  
-.comment-form textarea {
-    resize: vertical;
-}
-  
+
 .comment-form input[type="checkbox"],
 .comment-form input[type="radio"] {
     vertical-align: middle;
 }
-  
+
 .comment-form .purpose label,
 .comment-form input[type="checkbox"]+label,
 .comment-form input[type="radio"]+label {
     display: inline-block;
     vertical-align: middle;
 }
-  
+
 .comment-form input[type="checkbox"] {
     margin-right: 5px;
-}
-
-.comment-form input[type="submit"]:hover {
-    background-color: #141414;
 }
 
 .comment-form button[type="submit"]:hover {
@@ -485,10 +463,8 @@ section {
     padding: 20px;
     margin-bottom: 20px;
 }
-  
+
 .company-info {
-    background-color: #fff;
-    padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -506,7 +482,7 @@ section {
     text-align: center;
     height: 400px;
 }
-  
+
 .map-container iframe {
     display: inline-block;
     height: 100%;
@@ -537,6 +513,7 @@ h1, h2, h3, h4, h5, h6 {
 #trips {
     background-color: #f5f5f5;
     padding: 50px 0;
+    color: #000;
 }
 
 .trip {
@@ -564,6 +541,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .trip-details p {
     margin-bottom: 5px;
+    color: #000;
 }
 
 .cta {
@@ -571,7 +549,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cta a {
-    background-color: #ff6f00;
+    background-color: #004794;
     color: #fff;
     padding: 15px 30px;
     border-radius: 5px;
@@ -586,7 +564,7 @@ h1, h2, h3, h4, h5, h6 {
 button,
 a.button {
     color: #fff;
-    background-color: #ff6f00;
+    background-color: #3c3936;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -604,9 +582,9 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--footer-color);
-    color: #fff;
+    background-color: #333;
     align-items: center;
+    color: #fff;
 }
 
 .sociallinks-container {
