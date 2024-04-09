@@ -18,14 +18,6 @@
     box-sizing: border-box;
 }
 
-p {
-    color: var(--text-color);
-}
-
-h1 {
-    font-size: 2em;
-}
-
 body {
     font-family: Arial, sans-serif;
 }
@@ -37,12 +29,6 @@ body {
 
 section {
     margin-bottom: 50px;
-}
-
-.header-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .logo img {
