@@ -130,21 +130,23 @@ nav a:hover {
 }
 
 .hero {
-    background-image: url('/wwr/images/designer.jpeg');
+    background-image: url('/wwr/images/riverwide.jpg');
     background-size: cover;
     color: #fff;
     text-align: center;
     padding: 100px 0;
 }
 
-.hero h2 {
+.hero h1 {
     font-size: 3em;
     margin-bottom: 20px;
+    color: #fff;
 }
 
 .hero p {
     font-size: 1.2em;
     margin-bottom: 30px;
+    color: #1A421A;
 }
 
 .btn {
