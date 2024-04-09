@@ -264,6 +264,10 @@ main {
     margin-bottom: 20px;
 }
 
+.welcome p{
+    color: #000;
+}
+
 .team-members {
     display: flex;
     justify-content: space-between;
@@ -373,6 +377,10 @@ section {
 
 .company-info p {
     margin-bottom: 10px;
+}
+
+.member p{
+    color: #000;
 }
 
 .employee-profiles {
