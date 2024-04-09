@@ -19,7 +19,7 @@
 }
 
 p {
-    color: var(--nav-link-color);
+    color: var(--text-color);
 }
 
 h1 {
@@ -51,6 +51,10 @@ section {
 
 header h1 {
     margin: 0;
+}
+
+h1{
+    color:#000;
 }
 
 nav ul {
@@ -603,6 +607,10 @@ footer {
     align-items: center;
     background-color: #333;
     align-items: center;
+    color: #fff;
+}
+
+footer p{
     color: #fff;
 }
 
