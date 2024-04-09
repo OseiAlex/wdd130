@@ -287,6 +287,8 @@ main {
 
 .values ul {
     list-style-type: none;
+    text-align: center;
+    margin-top: 0.9%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -376,6 +378,7 @@ section {
 .employee-profiles {
     text-align: center;
     margin-bottom: 50px;
+    color: #000;
 }
 
 .employee-profiles .employee {
@@ -463,6 +466,10 @@ section {
     margin-bottom: 20px;
 }
 
+.company-info p{
+    color: #000;
+}
+
 .company-info {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -470,6 +477,10 @@ section {
 
 .employee-profiles {
     margin-top: 40px;
+}
+
+.employee-profiles p{
+    color: #000;
 }
 
 .comment-form {
