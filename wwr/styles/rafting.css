@@ -595,10 +595,13 @@ footer {
 }
 
 .sociallinks a {
-    margin-left: auto;
-    color: #333;
+    margin-left: auto; 
+    color: #fff; 
+    text-decoration: none; 
+    transition: color 0.3s; 
 }
 
 .sociallinks a:hover {
-    color: #000;
+    color: #f9f9f9; 
 }
+
