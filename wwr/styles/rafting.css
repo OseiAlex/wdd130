@@ -69,7 +69,6 @@ nav ul li a {
     }
 }
 
-
 header {
     background-color: var(--primary-color);
     color: #fff;
@@ -123,7 +122,7 @@ nav a:hover {
 }
 
 .hero {
-    background-image: url('/images/riverwide.jpg');
+    background-image: url('/wwr/images/riverwide.jpg');
     background-size: cover;
     color: #fff;
     text-align: center;
