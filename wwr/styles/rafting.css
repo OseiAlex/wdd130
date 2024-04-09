@@ -593,3 +593,12 @@ footer {
     display: flex;
     gap: 10px;
 }
+
+.sociallinks a {
+    margin-left: auto;
+    color: #333;
+}
+
+.sociallinks a:hover {
+    color: #000;
+}
