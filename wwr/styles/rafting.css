@@ -289,7 +289,7 @@ main {
     margin-top: 10px;
 }
 
-.values ul {
+.values ol {
     list-style-type: none;
     text-align: center;
     margin-top: 0.9%;
