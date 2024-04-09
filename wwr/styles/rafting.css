@@ -583,18 +583,6 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #1A421A;
 }
 
-button,
-a.button {
-    color: #fff;
-    background-color: #3c3936;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 1em;
-    transition: background-color 0.3s ease;
-}
-
 button:hover,
 a.button:hover {
     background-color: #1A421A;
