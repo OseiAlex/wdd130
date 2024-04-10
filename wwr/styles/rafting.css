@@ -561,7 +561,7 @@ footer p{
 }
 
 .hero-content h1 {
-    font-size: 3em; 
+    font-size: 6em; 
     margin-bottom: 10px; 
 }
 
@@ -600,7 +600,7 @@ nav {
     color: #fff;
 }
 
-.btn {
+.btn,.btn:hover  {
     display: inline-block;
     background-color: #004794;
     color: #fff;
@@ -608,8 +608,5 @@ nav {
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-}
-
-.btn:hover {
     background-color: #1A421A;
 }
