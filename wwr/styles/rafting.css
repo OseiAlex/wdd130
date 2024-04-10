@@ -76,11 +76,6 @@ header {
     text-align: center;
 }
 
-nav ul li {
-    display: inline;
-    margin-left: 20px;
-}
-
 nav a:visited,
 nav a:hover {
   text-decoration: none;
@@ -445,10 +440,6 @@ section {
     cursor: pointer;
     display: block;
     margin-top: 10px;
-}
-
-section {
-    margin-bottom: 50px;
 }
 
 h1, h2, h3, h4, h5, h6 {
